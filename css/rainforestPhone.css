@@ -1,0 +1,215 @@
+@media all and (max-device-width: 360px) {
+
+
+}body{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(20px, auto); 
+    position: relative;
+}
+
+p{
+    font-size: 3em;
+    padding: 10px;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+#weBelieveH1{
+    text-align: center;
+    color: #1a4a27;
+    font-size: 4em;
+}
+
+#weBelieveP{
+    text-align: center;
+    color: #1a4a27;
+}
+
+#donateP{
+    text-align: center;
+}
+
+.newsP{
+    font-size: 1.2em;
+}
+
+.newsH1{
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1a4a27;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+a:hover{
+    /* change the underline effect to be a change of color instead */
+    text-decoration: none;
+}
+
+#topPicture{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    z-index: 90;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#header{
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'EB Garamond', serif;
+}
+
+#textLeft{
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    color: white;
+    padding: 1em;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+#textRight{
+    grid-row: 6 / 7;
+    grid-column: 1 / 2;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+                                 /* All Buttons (start) */
+#buttons{
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#volunteerBtn{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #a81b11;
+    font-family: 'EB Garamond', serif;
+}
+
+#volunteerBtn:hover{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #7d130b;
+    font-family: 'EB Garamond', serif;
+}
+
+#donateBtn{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #a81b11;
+    font-family: 'EB Garamond', serif;
+}
+
+#donateBtn:hover{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #7d130b;
+    font-family: 'EB Garamond', serif;
+}
+
+#readMoreBtn{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #a81b11;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    left: 43%;
+    bottom: 100px;
+}
+
+#readMoreBtn:hover{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #7d130b;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    left: 43%;
+    bottom: 100px;
+}
+                                      /* All Buttons (end) */
+#homeNews{
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    padding: 50px;
+    bottom: 100px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#bottomPicture{
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+    color: white;
+    padding: 1em;
+    position: relative;
+}
+
+footer{
+    grid-row: 7 / 8;
+    grid-column:1 / 2;
+    background-color: #1a4a27;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}

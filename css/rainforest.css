@@ -1,0 +1,594 @@
+@media all and (min-device-width: 769px) {
+
+body{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(1em, auto);
+    position: relative;
+}
+
+p{
+    font-size: 3em;
+    padding: 10px;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+#weBelieveH1{
+    text-align: center;
+    color: #1a4a27;
+    font-size: 4em;
+}
+
+#weBelieveP{
+    text-align: center;
+    color: #1a4a27;
+}
+
+#donateP{
+    text-align: center;
+}
+
+.newsP{
+    font-size: 1.2em;
+}
+
+.newsH1{
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    /* change the underline effect to be a change of color instead */
+    text-decoration: none;
+    background-color: #1a4a27;
+}
+
+#topPicture{
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+    z-index: 90;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#header{
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'EB Garamond', serif;
+}
+
+#textLeft{
+    grid-row: 3 / 4;
+    grid-column: 1 / 7;
+    color: white;
+    padding: 1em;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+#textRight{
+    grid-row: 6 / 7;
+    grid-column: 1 / 7;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+                                 /* All Buttons (start) */
+#buttons{
+    grid-row: 4 / 5;
+    grid-column: 1 / 7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#volunteerBtn{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #a81b11;
+    font-family: 'EB Garamond', serif;
+}
+
+#volunteerBtn:hover{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #7d130b;
+    font-family: 'EB Garamond', serif;
+}
+
+#donateBtn{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #a81b11;
+    font-family: 'EB Garamond', serif;
+}
+
+#donateBtn:hover{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #7d130b;
+    font-family: 'EB Garamond', serif;
+}
+
+#readMoreBtn{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #a81b11;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    left: 43%;
+    bottom: 100px;
+}
+
+#readMoreBtn:hover{
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #7d130b;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    left: 43%;
+    bottom: 100px;
+}
+                                      /* All Buttons (end) */
+#homeNews{
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    padding: 50px;
+    bottom: 100px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#bottomPicture{
+    grid-row: 5 / 6;
+    grid-column: 1 / 7;
+    color: white;
+    padding: 1em;
+    position: relative;
+}
+
+footer{
+    grid-row: 7 / 8;
+    grid-column:1 / 7;
+    background-color: #1a4a27;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+                                       /* Start of About page */
+#pictureRight{
+    grid-row: 2 / 7;
+    grid-column: 4 / 7;
+}
+
+#aboutHeader{
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+    z-index: 90;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    text-shadow: 2px 2px 5px black;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+#aboutTextLeft{
+    grid-row: 2 / 7;
+    grid-column: 1 / 4;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-family: 'EB Garamond', serif;
+    padding-top: 5%;
+}
+    
+                                        /* end of About page */
+    
+
+                                       /* Start of news page */
+
+#newsHeader{
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+    z-index: 90;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    text-shadow: 2px 2px 5px black;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+
+#newsPic1{
+    grid-row: 2 / 3;
+    grid-column: 4 / 7;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-family: 'EB Garamond', serif;
+}
+
+#newsText1{
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+}
+
+#newsPic2{
+    grid-row: 3 / 4;
+    grid-column: 4 / 7;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-family: 'EB Garamond', serif;
+}
+
+#newsText2{
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-family: 'EB Garamond', serif;
+}
+
+#newsPic3{
+    grid-row: 4 / 5;
+    grid-column: 4 / 7;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-family: 'EB Garamond', serif;
+}
+
+#newsText3{
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    background-color: #1a4a27;
+    color: white;
+    padding: 1em;
+    font-family: 'EB Garamond', serif;
+}
+
+.newsDate{
+    font-size: 15px;
+}
+
+#newsFooter{
+    grid-row: 5 / 6;
+    grid-column: 1 / 7;
+    background-color: #1a4a27;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+                                /* Start of volunteer page */
+
+#helpH1{
+    grid-row: 2 / 3;
+    grid-column: 1 / 7;
+    font-size: 10px;
+    text-decoration: none;
+    background-color: beige;
+    font-family: 'EB Garamond', serif;
+}
+
+#helpText{
+    grid-row: 3 / 4;
+    grid-column: 1 / 7;
+    font-size: 7px;
+    background-color: beige;
+    font-family: 'EB Garamond', serif;
+} 
+
+.webkinz{
+    font-size: 1em;
+    color: blue;
+}
+
+.volunteerPic1{
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    background-color: beige;
+    color: ;
+    border: 5px solid #e6d7a5;
+    border-radius: 15px;
+    margin: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.volunteerText1{
+    grid-row: 4 / 5;
+    grid-column: 4 / 7;
+    background-color: beige;
+    color: ;
+    border: 5px solid #e6d7a5;
+    border-radius: 15px;
+    padding: 5px;
+    padding-top: 15%;
+    margin: 1em;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.volunteerText2{
+    grid-row: 5 / 6;
+    grid-column: 1 / 4;
+    background-color: beige;
+    color: ;
+    border: 5px solid #e6d7a5;
+    border-radius: 15px;
+    padding: 5px;
+    padding-top: 5%;
+    margin: 1em;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.volunteerPic2{
+    grid-row: 5 / 6;
+    grid-column: 4 / 7;
+    background-color: beige;
+    color: ;
+    border: 5px solid #e6d7a5;
+    border-radius: 15px;
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+.volunteerText3{
+    grid-row: 6 / 7;
+    grid-column: 4 / 7;
+    background-color: beige;
+    color: ;
+    border: 5px solid #e6d7a5;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 1em;
+    padding-top: 15% ;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.volunteerPic3{
+    grid-row: 6 / 7;
+    grid-column: 1 / 4;
+    border-radius: 15px;
+    margin: 0;
+    text-align: center;
+    border: 5px solid #e6d7a5;
+    border-radius: 15px;
+    background-color: beige;
+    overflow: hidden;
+}
+
+.volunteerP{
+    font-size: 1.25em;
+    font-family: 'EB Garamond', serif;
+}
+
+.volunteerTextTop{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+                                 /* End of volunteer page */
+
+                                 /* start of shop page */
+#shopHeaderImage{
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+    text-align: center;
+}
+
+.shopImageText{
+    font-size: 1.15em;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+    
+.shopHeadText{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+    
+#shopH1{
+    color: #1a4a27;
+    font-family: 'EB Garamond', serif;
+}
+
+.shopImage1{
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
+    text-align: center;
+    background-image: url("images/shop/tshirt1.png");
+}
+
+.shopImage2{
+    grid-row: 2 / 4;
+    grid-column: 3 / 5;
+    text-align: center;
+}
+
+.shopImage3{
+    grid-row: 2 / 4;
+    grid-column: 5 / 7;
+    text-align: center;
+}
+
+.shopImage4{
+    grid-row: 4 / 7;
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+.shopImage5{
+    grid-row: 4 / 7;
+    grid-column: 3 / 5;
+    text-align: center;
+}
+
+.shopImage6{
+    grid-row: 4 / 7;
+    grid-column: 5 / 7;
+    text-align: center;
+}
+
+                            /* start of images hover state.*/
+
+.shopImage1:hover{
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.shopImage2:hover{
+    grid-row: 2 / 4;
+    grid-column: 3 / 5;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.shopImage3:hover{
+    grid-row: 2 / 4;
+    grid-column: 5 / 7;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.shopImage4:hover{
+    grid-row: 4 / 7;
+    grid-column: 1 / 3;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.shopImage5:hover{
+    grid-row: 4 / 7;
+    grid-column: 3 / 5;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.shopImage6:hover{
+    grid-row: 4 / 7;
+    grid-column: 5 / 7;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+                                  /* end of shop page */
+    
+                               /* start of donation page */
+    
+#donationText1{
+    grid-row: 2 / 7;
+    grid-column: 1 / 5;
+    background-color: #e6faec;
+}
+    
+#donationText2{
+    grid-row: 2 / 7;
+    grid-column: 5 / 7;
+    background-color: #e6faec;
+}
+    
+.donateText1{
+    color: #1a4a27;
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+}
+
+.donateText2{
+    color: #1a4a27;
+    font-family: 'EB Garamond', serif; 
+    font-size: 2em;
+    text-align: center;
+}
+    
+.donateText3{
+    color: #1a4a27;
+    font-family: 'EB Garamond', serif; 
+    font-size:2em;
+}
+    
+#donationBorder{
+    border: 5px solid #1a4a27;
+}
+    
+#search{
+    font-size: 1em;
+}
+                                /* end of donation page */
+    
+}
