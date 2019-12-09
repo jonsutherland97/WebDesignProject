@@ -49,6 +49,27 @@ Strengths: The various pictures on the website are visually appealing, it is nic
 
 Weaknesses: An ad to donate pops up right away when you go to the website, which is annoying especially if you are just going there to get some more information about the organization, rather than donate. The homepage has a lot of information and pictures on it, so it appears to be cluttered. The whole homepage is dedicated to donating to the organization, when we think it should be more focused on what the organization does. 
 
+## Usability Testing
+
+* Good homepage
+* Typo on deforestation 
+* Good layout
+* Bird as favicon?
+* Picture for shop section
+* Each webpage is cohesive
+* About us - who are we, fill in more space
+* News page - wildlife trade fill in blank space
+* Everyone thinks it’s great!
+* Fix labels on shops!
+* Brazil? Typo on pages
+* Who we are - bring back mission statement, why are we doing this? Why do people want to support this?
+* News page - past, current
+* Fires in the rainforest - animals? Earth?
+* Where is the money from the shop going? Proceeds go toward the cause
+* Hover on the shop pictures
+* Deforestation picture - change find a different picture
+
+
 
 ## Moving Forward
 
