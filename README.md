@@ -35,27 +35,20 @@ With our site we want to target people who care about the environment and wildli
 
 ## **Competitor Analysis** ##
 ## World Wildlife Fund
-Strengths
-Good point of interest
-There is information about the different areas they work with
-Easy navigation
-Weaknesses
-Too much information on one page 
-A few web pages
-National Wildlife Federation
-Strengths
-Good point of interest 
-Mission statement visible on home page 
-Weaknesses
-Annoying pop up advertisement 
-They are trying to get you to buy stuff
-Wildlife Conservation Society
-Strengths
-Good point of interest 
-Decent navigation 
-Weaknesses
-Too many colors
-Too much information on one page 
+Strengths: On the homepage of the World Wildlife Fund, the point of interest is a black and white picture that features a silhouette of a man. They are very specific about what they do, and it is very easy to access all the information. On the top of the homepage, the navigation consists of our work, species, and places. So this makes it very easy to see what the organization does. The mission statement is right on the homepage when you go to the website, so you know right away what this organization stands for and what their mission is.
+
+Weaknesses: Going through the website, we think that there is too much information on one page, and some of the pages look a little cluttered, such as the leadership page and the experts page. Also, even though it is quite easy to navigate throughout the site, there are still a lot of webpages only grouped under three sections on the navigation bar. So, perhaps there should have been more sections under the navigation to make each page more accessible and easy to get to.
+
+## National Wildlife Federation
+Strengths: The homepage has a good point of interest, the colors work well together, and the page is not overwhelmed with too much information. They also have their mission statement directly on the homepage, which is good for the audience to see right away what the organization stands for. 
+
+Weaknesses: An ad to donate pops up right away when you go to the website, which is annoying especially if you are just going there to get some more information about the organization, rather than donate. The mission statement on the homepage is a nice idea, but we think that the organization could of made the mission statement more brief. 
+
+## Wildlife Conservation Society
+Strengths: The various pictures on the website are visually appealing, it is nice that they put pictures of the animals up on the website. Hamburger navigation is simple, and visually appealing. Hamburger navigation also makes the site very easy to navigate. 
+
+Weaknesses: An ad to donate pops up right away when you go to the website, which is annoying especially if you are just going there to get some more information about the organization, rather than donate. The homepage has a lot of information and pictures on it, so it appears to be cluttered. The whole homepage is dedicated to donating to the organization, when we think it should be more focused on what the organization does. 
+
 
 ## Moving Forward
 
